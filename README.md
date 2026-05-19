@@ -6,4 +6,22 @@ Key Features: Uses Markdown for content storage and converts it to HTML for disp
 
 Tech: Python, Django, Markdown, HTML, CSS.
 
-Requirements: https://cs50.harvard.edu/web/projects/1/wiki/
+Project Requiremetns: https://cs50.harvard.edu/web/projects/1/wiki/
+
+ Setup Instructions:
+--------------------------------------------------
+1. Install dependencies:
+   ```
+   pip install django markdown2
+   ```
+
+2. Run database migrations:
+   ```
+   python manage.py makemigrations
+   python manage.py migrate
+   ```
+  
+3. Start the development server]
+    ```
+    python manage.py runserver
+    ```
