@@ -10,18 +10,27 @@ Project Requiremetns: https://cs50.harvard.edu/web/projects/1/wiki/
 
  Setup Instructions:
 --------------------------------------------------
-1. Install dependencies:
+0. Download code/ Clone repository
+   ```
+   git clone https://github.com/Erbakan360/CS50W-Wiki-Project-1.git
+   ```
+1. Change directory to the wiki
+   ```
+   cd wiki
+   ```
+
+2. Install dependencies:
    ```
    pip install django markdown2
    ```
 
-2. Run database migrations:
+3. Run database migrations:
    ```
    python manage.py makemigrations
    python manage.py migrate
    ```
   
-3. Start the development server]
+4. Start the development server]
     ```
     python manage.py runserver
     ```
