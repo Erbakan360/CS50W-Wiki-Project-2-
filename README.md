@@ -30,7 +30,7 @@ Project Requiremetns: https://cs50.harvard.edu/web/projects/1/wiki/
    python manage.py migrate
    ```
   
-4. Start the development server]
+4. Start the development server:
     ```
     python manage.py runserver
     ```
